@@ -121,13 +121,10 @@ if(!function_exists('makeLinks'))
         $myReturn = '';
         foreach($nav as $key => $value)
         {
-            $myReturn .= '<li><a href="' . $key . '">' . $value . '</a></li>' . PHP_EOL;
+            $myReturn .= '<li><a href="' . site_url($key) . '">' . $value . '</a></li>' . PHP_EOL;
         }
         
         return $myReturn;
         
-        //var_dump();
-        //die;
-        //return 'is this working?';
     } 
 }//end makeLinks

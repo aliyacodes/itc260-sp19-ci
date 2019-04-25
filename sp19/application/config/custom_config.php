@@ -9,7 +9,7 @@ $config['masthead'] = 'Default MastHead';
 $config['theme'] = 'themes/bootswatch/';
 
 $config['nav1'] = array(
-'' => 'News',
-'create' => 'ADD News'
+    'news' => 'News',
+    'news/create' => 'ADD News'
 );
 
